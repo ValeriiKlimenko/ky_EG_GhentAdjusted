@@ -16,11 +16,14 @@ The output file is in lund format.
 
 
 To use KLambda of KSigma event generators:
-
-1. Compile it: 
+1. install root (https://root.cern.ch/building-root) or type command: use root/6.10.02
+2. git clone https://github.com/ValeriiKlimenko/ky_EG_GhentAdjusted
+3. cd ky_EG_GhentAdjusted/ky_EG_GhentAdjusted/eventGenerator/
+4. chmod +x COMPILE_eg_ky
+5. Compile it: 
 > ./COMPILE_eg_ky
 
-2. Adjust eg_config_test.txt file. 
+6. Adjust eg_config_test.txt file. 
  Its format is as follows.
  - first line must contains the string "KLambda" or "KSigma".
  - Next line contains two numbers Q2min and Q2max.
@@ -37,7 +40,7 @@ To use KLambda of KSigma event generators:
  - Next line contains the name of the output file.
  - Next line contains the path name to the "data" directory.
    
-3. Run it:
+7. Run it:
 >  ./eg_ky eg_config_test.txt
   Parameter eg_config_test.txt is the name of the config. file
 
