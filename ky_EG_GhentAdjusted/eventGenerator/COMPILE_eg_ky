@@ -1,0 +1,2 @@
+g++ -pipe -o eg_ky eg_ky.cpp \
+    -g `root-config --cflags --glibs` -O3

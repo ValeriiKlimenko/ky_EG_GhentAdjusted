@@ -1,0 +1,8 @@
+KSigma
+11.
+2.00  11.999
+1.5    5.0
+5000
+dec 
+output.lund
+./data
